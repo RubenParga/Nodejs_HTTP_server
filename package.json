@@ -1,0 +1,21 @@
+{
+  "name": "hero-tutorial",
+  "version": "1.0.0",
+  "description": "Tutorial de node Hero",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha test"
+  },
+  "author": "Rubén David Parga García",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "lodash": "^4.17.15",
+    "pg": "^7.18.1"
+  },
+  "devDependencies": {
+    "mocha": "^7.0.1"
+  }
+}
